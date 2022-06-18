@@ -2,7 +2,6 @@
 
 body{
     background-image: linear-gradient(to right, white, blue);
-
 }
 header > h1{
     text-shadow:1px 1px   white;
@@ -88,5 +87,10 @@ div > p {
 }
 div p >a {
     text-decoration:none;
+}
+footer{
+    text-shadow: 1px 1px white;
+    font-size:2em;
+    text-align:center;
 }
 
