@@ -8,6 +8,12 @@
     <style>
         body{font-family:Arial, Helvetica, sans-serif
         }
+        caption{
+            font-size:1,5em;
+            font-weight:bold;
+            padding:10px;
+            background-color:lightgray;
+        }
         thead{
             background-color:gray;
             color:white;
@@ -31,10 +37,11 @@
 <body>
     <h1>Uso de tabelas grandes</h1>
 <table>
+    <caption>População das unidades federal</caption>
     <thead>
         <tr>
-            <th>Estado</th>
-            <th>População</th>
+            <th scoope="col">Estado</th>
+            <th scoop="col" style="width:50px;">População</th>
 
         </tr>
     </thead>
@@ -148,7 +155,7 @@
 
     <tfoot>
         <tr>
-         <td><strong> Total de Abitante</strong></td>
+         <td scope="row"><strong> Total de Abitante</strong></td>
          <td><strong>210.147.125</strong></td>
         </tr>
     </tfoot>
